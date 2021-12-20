@@ -16,7 +16,7 @@ public class Bicycle extends Vehicle {
     private static int cadence;
 
     /**
-    * Whether the bike has a basket or not
+    * Whether the bike has a basket or not.
     */
     private static boolean hasBasket;
 
@@ -57,6 +57,8 @@ public class Bicycle extends Vehicle {
 
     /**
     * Gets the basket.
+    *
+    * @return gets the basket
     */
     public boolean getHasBasket() {
         return hasBasket;
